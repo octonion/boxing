@@ -3,7 +3,7 @@ begin;
 drop table if exists boxrec.fights;
 
 create table boxrec.fights (
-	division	      text,
+	boxer_division	      text,
 	boxer_id	      integer,
 	boxer_name	      text,
 	fight_date	      date,
@@ -23,6 +23,11 @@ create table boxrec.fights (
 	outcome_type	      text,
 	rounds		      integer,
 	scheduled	      text,
+	fight_division	      text,
+	boxer_pre	      integer,
+	boxer_post	      integer,
+	opponent_pre	      integer,
+	opponent_post	      integer,
 	fight_url	      text
 );
 

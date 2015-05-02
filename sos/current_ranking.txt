@@ -1,56 +1,56 @@
 BEGIN
-           name            |  str   
----------------------------+--------
- Floyd Mayweather Jr       | 400.21
- Kell Brook                | 321.25
- Keith Thurman             | 289.32
- Sadam Ali                 | 148.00
- Timothy Bradley Jr        | 138.87
- Sammy Vasquez             | 133.19
- Konstantin Ponomarev      | 132.16
- Shawn Porter              | 115.53
- Felix Diaz                |  97.66
- Teerachai Kratingdaenggym |  87.22
- Leonard Bundu             |  84.60
- Dmitry Mikhaylenko        |  82.91
- Frankie Gavin             |  77.39
- Errol Spence Jr           |  75.72
- Manny Pacquiao            |  69.48
- Yuki Beppu                |  65.20
- Jose Zepeda               |  64.20
- Luis Carlos Abregu        |  63.69
- Ray Robinson              |  62.16
- Egidijus Kavaliauskas     |  61.90
- Fredrick Lawson           |  60.51
- Jeff Horn                 |  60.23
- Robert Guerrero           |  59.19
- Amir Khan                 |  56.42
- Wale Omotoso              |  55.94
- Alejandro Davila          |  50.32
- Vyacheslav Senchenko      |  49.19
- Devon Alexander           |  47.75
- Chris van Heerden         |  47.61
- Glenn Foot                |  46.84
- Brandon Rios              |  46.65
- Dusty Hernandez Harrison  |  46.21
- Selcuk Aydin              |  44.96
- Rafik Harutjunjan         |  44.08
- Diego Gabriel Chaves      |  42.28
- Mikael Zewski             |  42.04
- Ionut Dan Ion             |  41.40
- Jamal James               |  40.94
- Joan Guzman               |  40.57
- Ahmed El Mousaoui         |  39.58
- Aslanbek Kozaev           |  38.87
- Marcos Rene Maidana       |  38.31
- Suyon Takayama            |  37.69
- Carlos Ocampo             |  36.24
- Chalermpol Singwancha     |  33.72
- David Avanesyan           |  33.71
- Roberto Garcia            |  33.52
- Chris Algieri             |  33.40
- Juan Manuel Marquez       |  33.30
- Andre Berto               |  31.89
+              name              |   str   
+--------------------------------+---------
+ Floyd Mayweather Jr            | 1091.13
+ Kell Brook                     | 1059.57
+ Keith Thurman                  |  870.92
+ Sadam Ali                      |  423.36
+ Jessie Vargas                  |  390.21
+ Timothy Bradley Jr             |  389.28
+ Konstantin Ponomarev           |  353.15
+ Danny Garcia                   |  351.01
+ Brad Solomon                   |  329.46
+ Shawn Porter                   |  328.55
+ Sammy Vasquez                  |  272.83
+ Felix Diaz                     |  236.43
+ Leonard Bundu                  |  219.71
+ Manny Pacquiao                 |  190.41
+ Errol Spence Jr                |  187.74
+ Teerachai Kratingdaenggym      |  185.05
+ Dmitry Mikhaylenko             |  181.27
+ Frankie Gavin                  |  180.11
+ Luis Carlos Abregu             |  176.29
+ Egidijus Kavaliauskas          |  150.69
+ Jose Zepeda                    |  146.35
+ Viktor Postol                  |  146.02
+ Cesar Rene Cuenca              |  145.02
+ Ray Robinson                   |  134.31
+ Saul Alvarez                   |  133.16
+ Amir Khan                      |  131.90
+ Chris van Heerden              |  131.78
+ Robert Guerrero                |  128.40
+ Fredrick Lawson                |  127.34
+ Jeff Horn                      |  125.08
+ Jamal James                    |  117.51
+ Dieudonne Belinga              |  112.66
+ Devon Alexander                |  112.47
+ Wale Omotoso                   |  109.15
+ Chris Algieri                  |  108.57
+ Dario Fabian Pucheta           |  107.50
+ Yuki Beppu                     |  106.44
+ Vyacheslav Senchenko           |  104.67
+ Jonathan Eduardo Gaston Chavez |  103.99
+ Przemyslaw Runowski            |  103.71
+ Jermell Charlo                 |  101.63
+ Brandon Rios                   |  101.35
+ Selcuk Aydin                   |   99.13
+ Antonin Decarie                |   96.95
+ Aslanbek Kozaev                |   95.40
+ Mikael Zewski                  |   95.28
+ Taras Shelestyuk               |   95.03
+ Diego Gabriel Chaves           |   93.13
+ Leonardo Zappavigna            |   92.54
+ Miguel Cotto                   |   92.47
 (50 rows)
 
 COPY 50

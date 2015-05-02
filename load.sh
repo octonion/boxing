@@ -11,12 +11,12 @@ fi
 
 psql boxing -f schema/create_schema.sql
 
-cp csv/boxers.csv /tmp/boxers.csv
+cat csv/boxers_*.csv >> /tmp/boxers.csv
 rpl -q ',"",' ',,' /tmp/boxers.csv
 psql boxing -f loaders/load_boxers.sql
 rm /tmp/boxers.csv
 
-cp csv/fights.csv /tmp/fights.csv
+cat csv/fights_*.csv >> /tmp/fights.csv
 rpl -q ',"",' ',,' /tmp/fights.csv
 rpl -q ',?,' ',,' /tmp/fights.csv
 rpl -q ',debut,' ',0,' /tmp/fights.csv

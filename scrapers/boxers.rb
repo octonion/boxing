@@ -8,15 +8,30 @@ agent.user_agent = 'Mozilla/5.0'
 
 base = "http://boxrec.com/"
 
-division = "Welterweight"
+division = ARGV[0]
 
 search_url = "http://boxrec.com/ratings.php?sex=M&division=#{division}&pageID="
 
 path='//*[@id="mainContent"]/table/tr[position()>2]'
 
-boxers = CSV.open("csv/boxers.csv","w")
+boxers = CSV.open("csv/boxers_#{division}.csv","w")
 
-(1..69).each do |page|
+url = search_url+"1"
+
+begin
+  page = agent.get(url)
+rescue
+  print "  -> error, retrying\n"
+  retry
+end
+
+a = page.parser.xpath('//a[@title="last page"]').first.text
+a.gsub!("[","")
+a.gsub!("]","")
+
+last = a.to_i
+
+(1..last).each do |page|
 
   url = search_url+page.to_s
 

@@ -12,8 +12,10 @@ base = "http://boxrec.com/"
 
 path = '//table[@align="center"]/tr[position()>1]'
 
-boxers = CSV.open("csv/boxers.csv","r")
-fights = CSV.open("csv/fights.csv","w")
+division = ARGV[0]
+
+boxers = CSV.open("csv/boxers_#{division}.csv","r")
+fights = CSV.open("csv/fights_#{division}.csv","w")
 
 boxers.each_with_index do |boxer,i|
 
@@ -22,8 +24,8 @@ boxers.each_with_index do |boxer,i|
   division = boxer[0]
   human_id = boxer[2]
   name = boxer[4]
-  url = boxer[5]
-
+  url = boxer[5]+"&set_bout_ratings=On"
+  
   won = boxer[7].to_i
   lost = boxer[9].to_i
   drew = boxer[11].to_i
@@ -43,8 +45,9 @@ boxers.each_with_index do |boxer,i|
 
     row = [division, human_id, name]
     tr.xpath("td").each_with_index do |td,k|
+
       case k
-      when 0,1,13
+      when 0,1,18
         next
       when 2
         text = td.text.strip
@@ -79,7 +82,7 @@ boxers.each_with_index do |boxer,i|
         end
         olast6 = olast6.to_s.gsub("[","{").gsub("]","}")
         row += [olast6]
-      when 12
+      when 17
         a = td.xpath("a").first
         href = base+a.attributes["href"].value.strip rescue nil
         row += [href]

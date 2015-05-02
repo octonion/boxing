@@ -21,6 +21,7 @@ where
     boxer_id is not null
 and opponent_id is not null
 and outcome in ('W','L','D')
+--and (boxer_division='Welterweight' or fight_division='welterweight')
 
 union all
 
@@ -37,6 +38,8 @@ where
     boxer_id is not null
 and opponent_id is not null
 and outcome in ('W','L','D')
+--and (boxer_division='Welterweight' or fight_division='welterweight')
+
 ;")
 
 fights <- fetch(query,n=-1)
