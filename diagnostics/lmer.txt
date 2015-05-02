@@ -1,3 +1,50 @@
 [1] 416274      3
 [1] TRUE
 start par. =  1 1 fn =  391924.9 
+At return
+eval:  88 fn:      357309.87 par:  2.79427  2.88956
+(NM) 20: f = 357310 at 2.79427 2.88956
+(NM) 40: f = 357310 at 2.79427 2.88956
+Generalized linear mixed model fit by maximum likelihood (Laplace
+  Approximation) [glmerMod]
+ Family: binomial  ( logit )
+Formula: outcome ~ -1 + (1 | boxer) + (1 | opponent)
+   Data: f
+      AIC       BIC    logLik  deviance  df.resid 
+ 357313.7  357335.6 -178654.8  357309.7    416272 
+Random effects:
+ Groups   Name        Std.Dev.
+ boxer    (Intercept) 2.794   
+ opponent (Intercept) 2.890   
+Number of obs: 416274, groups:  boxer, 54925; opponent, 54925
+No fixed effect coefficients
+Generalized linear mixed model fit by maximum likelihood (Laplace
+  Approximation) [glmerMod]
+ Family: binomial  ( logit )
+Formula: outcome ~ -1 + (1 | boxer) + (1 | opponent)
+   Data: f
+
+      AIC       BIC    logLik  deviance  df.resid 
+ 357313.7  357335.6 -178654.8  357309.7    416272 
+
+Scaled residuals: 
+     Min       1Q   Median       3Q      Max 
+-22.2043  -0.2851   0.0000   0.2849  22.2838 
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ boxer    (Intercept) 7.808    2.794   
+ opponent (Intercept) 8.350    2.890   
+Number of obs: 416274, groups:  boxer, 54925; opponent, 54925
+[1] TRUE
+[1] 8.421968e-09
+[1] 2.178196e-11
+[1] 8.356979e-08
+          0%           5%          10%          15%          20%          25% 
+1.867212e-17 2.981305e-14 1.277755e-13 3.438410e-13 8.666386e-13 1.872832e-12 
+         30%          35%          40%          45%          50%          55% 
+3.151463e-12 5.294070e-12 8.681013e-12 1.343705e-11 2.178196e-11 3.568595e-11 
+         60%          65%          70%          75%          80%          85% 
+5.308831e-11 9.022218e-11 1.450771e-10 2.548656e-10 4.808553e-10 9.340051e-10 
+         90%          95%         100% 
+2.485281e-09 1.038549e-08 1.440395e-06 

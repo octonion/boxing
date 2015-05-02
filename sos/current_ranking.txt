@@ -1,56 +1,56 @@
 BEGIN
-              name              |   str   
---------------------------------+---------
- Floyd Mayweather Jr            | 1091.13
- Kell Brook                     | 1059.57
- Keith Thurman                  |  870.92
- Sadam Ali                      |  423.36
- Jessie Vargas                  |  390.21
- Timothy Bradley Jr             |  389.28
- Konstantin Ponomarev           |  353.15
- Danny Garcia                   |  351.01
- Brad Solomon                   |  329.46
- Shawn Porter                   |  328.55
- Sammy Vasquez                  |  272.83
- Felix Diaz                     |  236.43
- Leonard Bundu                  |  219.71
- Manny Pacquiao                 |  190.41
- Errol Spence Jr                |  187.74
- Teerachai Kratingdaenggym      |  185.05
- Dmitry Mikhaylenko             |  181.27
- Frankie Gavin                  |  180.11
- Luis Carlos Abregu             |  176.29
- Egidijus Kavaliauskas          |  150.69
- Jose Zepeda                    |  146.35
- Viktor Postol                  |  146.02
- Cesar Rene Cuenca              |  145.02
- Ray Robinson                   |  134.31
- Saul Alvarez                   |  133.16
- Amir Khan                      |  131.90
- Chris van Heerden              |  131.78
- Robert Guerrero                |  128.40
- Fredrick Lawson                |  127.34
- Jeff Horn                      |  125.08
- Jamal James                    |  117.51
- Dieudonne Belinga              |  112.66
- Devon Alexander                |  112.47
- Wale Omotoso                   |  109.15
- Chris Algieri                  |  108.57
- Dario Fabian Pucheta           |  107.50
- Yuki Beppu                     |  106.44
- Vyacheslav Senchenko           |  104.67
- Jonathan Eduardo Gaston Chavez |  103.99
- Przemyslaw Runowski            |  103.71
- Jermell Charlo                 |  101.63
- Brandon Rios                   |  101.35
- Selcuk Aydin                   |   99.13
- Antonin Decarie                |   96.95
- Aslanbek Kozaev                |   95.40
- Mikael Zewski                  |   95.28
- Taras Shelestyuk               |   95.03
- Diego Gabriel Chaves           |   93.13
- Leonardo Zappavigna            |   92.54
- Miguel Cotto                   |   92.47
+           name           |   str   
+--------------------------+---------
+ Floyd Mayweather Jr      | 6437.91
+ Terence Crawford         | 4536.19
+ Carl Froch               | 3515.55
+ Danny Garcia             | 3365.14
+ Wladimir Klitschko       | 2714.82
+ Kell Brook               | 2639.01
+ Gennady Golovkin         | 2578.39
+ Guillermo Rigondeaux     | 2547.64
+ Amnat Ruenroeng          | 2433.43
+ Billy Joe Saunders       | 2428.50
+ Keith Thurman            | 2258.50
+ Jermell Charlo           | 2108.12
+ Jessie Vargas            | 2071.62
+ Tyson Fury               | 2022.69
+ Alexander Povetkin       | 2009.38
+ Nicholas Walters         | 1964.15
+ Tomoki Kameda            | 1729.02
+ Timothy Bradley Jr       | 1728.50
+ Roman Gonzalez           | 1677.10
+ Saul Alvarez             | 1641.75
+ Sergey Kovalev           | 1423.84
+ Sadam Ali                | 1412.96
+ Carl Frampton            | 1367.88
+ Demetrius Andrade        | 1355.78
+ Deontay Wilder           | 1280.42
+ Yuriorkis Gamboa         | 1242.40
+ Robert Helenius          | 1229.45
+ Kazuto Ioka              | 1198.88
+ Shinsuke Yamanaka        | 1154.93
+ Naoya Inoue              | 1128.58
+ Kubrat Pulev             | 1105.74
+ Nonito Donaire           | 1086.97
+ Erkan Teper              | 1043.00
+ Viktor Postol            | 1029.38
+ Andre Dirrell            |  990.42
+ Peter Quillin            |  987.64
+ Takashi Uchiyama         |  983.36
+ Leo Santa Cruz           |  980.05
+ Shawn Porter             |  971.92
+ George Groves            |  967.13
+ Adonis Stevenson         |  955.31
+ Bryant Jennings          |  935.96
+ Edwin Rodriguez          |  935.89
+ Carlos Diaz Ramirez      |  916.44
+ Manny Pacquiao           |  896.00
+ Brad Solomon             |  874.69
+ Dejan Zlaticanin         |  866.37
+ Terry Flanagan           |  858.82
+ Gilberto Ramirez Sanchez |  854.14
+ Eleider Alvarez          |  849.29
 (50 rows)
 
 COPY 50
