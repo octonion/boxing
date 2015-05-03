@@ -1,0 +1,1 @@
+awk -F, '{ system("./scrape.sh \\\"" $1 "\\\"") }' < csv/divisions.csv

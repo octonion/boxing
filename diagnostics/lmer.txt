@@ -1,22 +1,22 @@
-[1] 416274      3
+[1] 416108      3
 [1] TRUE
-start par. =  1 1 fn =  391924.9 
+start par. =  1 1 fn =  391813.5 
 At return
-eval:  88 fn:      357309.87 par:  2.79427  2.88956
-(NM) 20: f = 357310 at 2.79427 2.88956
-(NM) 40: f = 357310 at 2.79427 2.88956
+eval:  93 fn:      357230.82 par:  2.79333  2.88832
+(NM) 20: f = 357231 at 2.79333 2.88832
+(NM) 40: f = 357231 at 2.79333 2.88832
 Generalized linear mixed model fit by maximum likelihood (Laplace
   Approximation) [glmerMod]
  Family: binomial  ( logit )
 Formula: outcome ~ -1 + (1 | boxer) + (1 | opponent)
    Data: f
       AIC       BIC    logLik  deviance  df.resid 
- 357313.7  357335.6 -178654.8  357309.7    416272 
+ 357234.6  357256.5 -178615.3  357230.6    416106 
 Random effects:
  Groups   Name        Std.Dev.
- boxer    (Intercept) 2.794   
- opponent (Intercept) 2.890   
-Number of obs: 416274, groups:  boxer, 54925; opponent, 54925
+ boxer    (Intercept) 2.793   
+ opponent (Intercept) 2.888   
+Number of obs: 416108, groups:  boxer, 54910; opponent, 54910
 No fixed effect coefficients
 Generalized linear mixed model fit by maximum likelihood (Laplace
   Approximation) [glmerMod]
@@ -25,26 +25,26 @@ Formula: outcome ~ -1 + (1 | boxer) + (1 | opponent)
    Data: f
 
       AIC       BIC    logLik  deviance  df.resid 
- 357313.7  357335.6 -178654.8  357309.7    416272 
+ 357234.6  357256.5 -178615.3  357230.6    416106 
 
 Scaled residuals: 
      Min       1Q   Median       3Q      Max 
--22.2043  -0.2851   0.0000   0.2849  22.2838 
+-22.5835  -0.2854   0.0000   0.2852  22.6781 
 
 Random effects:
  Groups   Name        Variance Std.Dev.
- boxer    (Intercept) 7.808    2.794   
- opponent (Intercept) 8.350    2.890   
-Number of obs: 416274, groups:  boxer, 54925; opponent, 54925
+ boxer    (Intercept) 7.803    2.793   
+ opponent (Intercept) 8.343    2.888   
+Number of obs: 416108, groups:  boxer, 54910; opponent, 54910
 [1] TRUE
-[1] 8.421968e-09
-[1] 2.178196e-11
-[1] 8.356979e-08
+[1] 3.396532e-09
+[1] 1.864361e-11
+[1] 3.259911e-08
           0%           5%          10%          15%          20%          25% 
-1.867212e-17 2.981305e-14 1.277755e-13 3.438410e-13 8.666386e-13 1.872832e-12 
+8.867540e-17 4.042804e-14 1.418521e-13 3.819831e-13 8.434406e-13 1.590835e-12 
          30%          35%          40%          45%          50%          55% 
-3.151463e-12 5.294070e-12 8.681013e-12 1.343705e-11 2.178196e-11 3.568595e-11 
+3.048062e-12 4.539919e-12 6.976641e-12 1.111575e-11 1.864361e-11 3.068941e-11 
          60%          65%          70%          75%          80%          85% 
-5.308831e-11 9.022218e-11 1.450771e-10 2.548656e-10 4.808553e-10 9.340051e-10 
+4.441872e-11 7.340618e-11 1.174410e-10 2.228592e-10 4.144807e-10 8.303649e-10 
          90%          95%         100% 
-2.485281e-09 1.038549e-08 1.440395e-06 
+2.460801e-09 7.832577e-09 8.571349e-07 
